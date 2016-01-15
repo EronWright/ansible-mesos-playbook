@@ -8,10 +8,16 @@ role "ansible-docker",
 role "ansible-java8",
   github: "mhamrah/ansible-java8"
 role "ansible-zookeeper",
-  github: "mhamrah/ansible-zookeeper"
+  github: "AnsibleShipyard/ansible-zookeeper"
 role "ansible-marathon",
-  github: "mhamrah/ansible-marathon"
+  github: "AnsibleShipyard/ansible-zookeeper"
 role "ansible-mesos",
-  github: "mhamrah/ansible-mesos"
+  github: "AnsibleShipyard/ansible-zookeeper"
 role "ansible-consul",
-  github: "mhamrah/ansible-consul"
+  github: "savagegus/ansible-consul"
+role "franklinkim.nginx",
+  github: "weareinteractive/ansible-nginx"
+role "geerlingguy.nginx",
+  github: "geerlingguy/ansible-role-nginx"
+role "joshualund.golang",
+  github: "jlund/ansible-go"

@@ -1,9 +1,25 @@
 GIT
-  remote: https://github.com/mhamrah/ansible-consul
+  remote: https://github.com/AnsibleShipyard/ansible-zookeeper
   ref: master
-  sha: 38397d7103f659e9f3944da816d6b8a3b0e26018
+  sha: 2b7c9f6bb7542fdea397a6c17d4e21dcc1ff0c62
   specs:
-    ansible-consul (0.0.0)
+    ansible-marathon (0.0.0)
+    ansible-mesos (0.0.0)
+    ansible-zookeeper (0.0.0)
+
+GIT
+  remote: https://github.com/geerlingguy/ansible-role-nginx
+  ref: master
+  sha: 357ab200f755483e95e2ae4d5b97f483beade3b5
+  specs:
+    geerlingguy.nginx (0.0.0)
+
+GIT
+  remote: https://github.com/jlund/ansible-go
+  ref: master
+  sha: f07932b2fa5a787ae4194a77606e1c08e0b63878
+  specs:
+    joshualund.golang (0.0.0)
 
 GIT
   remote: https://github.com/mhamrah/ansible-docker
@@ -20,25 +36,18 @@ GIT
     ansible-java8 (0.0.0)
 
 GIT
-  remote: https://github.com/mhamrah/ansible-marathon
+  remote: https://github.com/savagegus/ansible-consul
   ref: master
-  sha: e1d8781e4d5f55db7aee91e8cdd39a5cf2813f36
+  sha: 5a0ba106e2794b6268e6d9f2634a2ef168c801da
   specs:
-    ansible-marathon (0.0.0)
+    ansible-consul (0.0.0)
 
 GIT
-  remote: https://github.com/mhamrah/ansible-mesos
+  remote: https://github.com/weareinteractive/ansible-nginx
   ref: master
-  sha: 1717eefbdda66f78d41b0aa2fc77facafb2a2b1c
+  sha: 830eabb9b348800651fb8a2d525e64118519ae20
   specs:
-    ansible-mesos (0.0.0)
-
-GIT
-  remote: https://github.com/mhamrah/ansible-zookeeper
-  ref: master
-  sha: ba4340361486b58f13d7581e9a0ba87c11ec4b49
-  specs:
-    ansible-zookeeper (0.0.0)
+    franklinkim.nginx (0.0.0)
 
 DEPENDENCIES
   ansible-consul (>= 0)
@@ -47,4 +56,7 @@ DEPENDENCIES
   ansible-marathon (>= 0)
   ansible-mesos (>= 0)
   ansible-zookeeper (>= 0)
+  franklinkim.nginx (>= 0)
+  geerlingguy.nginx (>= 0)
+  joshualund.golang (>= 0)
 
