@@ -1,4 +1,11 @@
 GIT
+  remote: https://github.com/AnsibleShipyard/ansible-java
+  ref: master
+  sha: cbac0c182f312f7e3e1ededb7ab7f7e442358d8e
+  specs:
+    ansible-java (0.0.0)
+
+GIT
   remote: https://github.com/AnsibleShipyard/ansible-zookeeper
   ref: master
   sha: 2b7c9f6bb7542fdea397a6c17d4e21dcc1ff0c62
@@ -52,6 +59,7 @@ GIT
 DEPENDENCIES
   ansible-consul (>= 0)
   ansible-docker (>= 0)
+  ansible-java (>= 0)
   ansible-java8 (>= 0)
   ansible-marathon (>= 0)
   ansible-mesos (>= 0)

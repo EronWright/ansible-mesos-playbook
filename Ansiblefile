@@ -7,6 +7,8 @@ role "ansible-docker",
   github: "mhamrah/ansible-docker"
 role "ansible-java8",
   github: "mhamrah/ansible-java8"
+role "ansible-java",
+  github: "AnsibleShipyard/ansible-java"
 role "ansible-zookeeper",
   github: "AnsibleShipyard/ansible-zookeeper"
 role "ansible-marathon",
